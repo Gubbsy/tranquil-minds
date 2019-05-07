@@ -1,13 +1,19 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Layout from './Layout/Layout.js';
+import Content from './Layouts/Contents/Content.js';
+import Footer from './Layouts/Footer/Footer.js'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Layout />
-    </BrowserRouter>
+    <div>
+      <div>
+        <BrowserRouter>
+          <Content />
+        </BrowserRouter>
+      </div>
+      <Footer />
+    </div>
   );
 }
 

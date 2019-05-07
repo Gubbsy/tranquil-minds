@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, NavLink, Switch } from 'react-router-dom';
-import Homepage from '../containers/Homepage/Homepage';
-import Testimony from '../containers/Testimony/Testimony';
-import Blog from '../containers/Blog/Blog';
-import './Layout.css';
+import Homepage from '../../containers/Homepage/Homepage';
+import Testimony from '../../containers/Testimony/Testimony';
+import Blog from '../../containers/Blog/Blog';
+import './Content.css';
 
-const layout= () => {
+const content = () => {
 
     return(
     <div className="layout">
@@ -35,4 +35,4 @@ const layout= () => {
     )
 }
 
-export default layout;
+export default content;
