@@ -12,7 +12,9 @@ function App() {
           <Content />
         </BrowserRouter>
       </div>
-      <Footer />
+      <div className='footer'>
+        <Footer/>
+      </div>
     </div>
   );
 }

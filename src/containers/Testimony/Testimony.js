@@ -1,9 +1,15 @@
 import React from 'react';
+import TestimonyItem from '../../components/TestimonyItem/TestimonyItem';
 
 const Testimony = () => {
+
+    // Testimonys will be stored in a db, pulled and turned into testmony items.
     return(
         <div>
-            <p>This is the Testimony</p>
+            <TestimonyItem />
+            <TestimonyItem />
+            <TestimonyItem />
+            <TestimonyItem />
         </div>
     )
 }
